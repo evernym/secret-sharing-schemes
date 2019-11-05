@@ -1,6 +1,6 @@
 [package]
 name = "secret_sharing"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["lovesh <lovesh.bond@gmail.com>"]
 edition = "2018"
 license = "Apache-2.0"
@@ -16,6 +16,6 @@ serde = "1.0"
 serde_derive = "1.0"
 
 [dependencies.amcl_wrapper]
-version = "0.1.7"
+version = "0.2.1"
 default-features = false
 features = ["bls381"]
